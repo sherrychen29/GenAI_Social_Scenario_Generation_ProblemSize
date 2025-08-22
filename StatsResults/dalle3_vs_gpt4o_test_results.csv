@@ -1,0 +1,7 @@
+metric,design,alt_hypothesis,t_stat,p_value,mean_gpt4o,mean_dalle3,mean_diff,n_gpt4o,n_dalle3,n_pairs,statistic
+alignment,"Welch t-test (independent, one-sided)",mean(GPT-4o) > mean(DALL·E 3),23.4541769310242,7.808372599384678e-86,4.475,3.029166666666667,1.4458333333333329,300.0,300.0,,
+aesthetics,"Welch t-test (independent, one-sided)",mean(GPT-4o) > mean(DALL·E 3),32.73513351736342,7.00256945477158e-125,4.683333333333334,3.254166666666667,1.4291666666666667,300.0,300.0,,
+alignment,"Paired t-test (matched pairs, one-sided)",mean(GPT-4o - DALL·E 3) > 0,24.572174413608906,5.033252832219e-74,4.475,3.029166666666667,1.4458333333333333,,,300.0,
+alignment,"Wilcoxon signed-rank (matched pairs, one-sided)",median(GPT-4o - DALL·E 3) > 0,,1.7325370279521653e-45,,,1.4458333333333333,,,300.0,41488.5
+aesthetics,"Paired t-test (matched pairs, one-sided)",mean(GPT-4o - DALL·E 3) > 0,33.63662154121159,6.083930332986156e-104,4.683333333333334,3.254166666666667,1.4291666666666667,,,300.0,
+aesthetics,"Wilcoxon signed-rank (matched pairs, one-sided)",median(GPT-4o - DALL·E 3) > 0,,4.740884106340807e-50,,,1.4291666666666667,,,300.0,43277.5
