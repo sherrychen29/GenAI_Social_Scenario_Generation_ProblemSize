@@ -1,9 +1,16 @@
 # GenAI_Social_Scenario_Generation_ProblemSize
 This project is to explore using ChatGPT to generate social story videos for social training
-The following packages need to be installed:
+
+
+The following API licenses are required:
+OpenAI
+Gemini
+LemonFox
+
+The following Python packages need to be installed:
 base64
 requests
-dotenv (for API license)
+dotenv (for store API license)
 moviepy
 openai
 google.generativeai
