@@ -229,9 +229,12 @@ def main():
         script = generate_script(
             client,
                 prompt = f"""
-
-
-Tell a short, realistic incident that triggers negative emotions for someone aged 5 to 18 using specific information below. The story will be presented to a child to ask him to identify the size of the problem. Randomly choose their name and gender. Randomly select one setting from the list below. For each problem, describe the problem details, whether there is any quick fix or working back up plan to largely mitigate the issue, and the impact and the duration of the impact. The story ends when the problem presents itself but has not been solved yet and the character asks themselves: "How big is this problem?". Don't tell the size of the problem in the story.
+Tell a short, realistic incident that triggers negative emotions for someone aged 5 to 18, using the following instructions. 
+The incident/story will be presented to a child to ask them to identify the size of the problem. 
+Their name and gender will be randomly chosen. The setting will be randomly selected from the list of options below. 
+For each incident/story, please describe the problem details, whether there is any quick fix or a backup plan to fix the issue, and the impact of its duration. 
+The story ends when the problem presents itself but has not been solved yet; the character will then ask themselves: "How big is this problem?". 
+Do not disclose the size of the problem in the story.
 
 Construct a story related to {setting} to show a problem whose size can be categorized as {problem_size} according to the following definition of each size of problem:
 Problem size guide: 
