@@ -236,7 +236,7 @@ For each incident/story, please describe the problem details, whether there is a
 The story ends when the problem presents itself but has not been solved yet; the character will then ask themselves: "How big is this problem?". 
 Do not disclose the size of the problem in the story.
 
-Construct a story related to {setting} to show a problem whose size can be categorized as {problem_size} according to the following definition of each size of problem:
+Construct a story related to {setting} to illustrate a problem whose size can be categorized as a {problem_size} based on the problem size guide.
 Problem size guide: 
 A disaster is defined as a large-size problem for the child. These problems can pose serious risks to personal health and safety, cause the loss of lives of close friends or family members, or cause large financial loss. These problems typically require significant help from others and take a long time to recover.
 Examples of disasters are natural disasters, car accidents, house fires, deaths of close family members, major illnesses where recovery is uncertain, and the loss of life-long savings.
