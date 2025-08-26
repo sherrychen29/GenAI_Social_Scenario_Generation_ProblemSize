@@ -249,7 +249,7 @@ For example, if a child forgets to bring their favorite pair of goggles to a maj
 If a child is hospitalized due to a major illness, if their safety is at risk, or if a natural disaster—including a fire, flood, or prolonged outage of power, water, or food—occurs, the problem size is a disaster.
 
 Double-check to ensure there is no ambiguity regarding the size of the problem generated. There should be no overlaps between the three categories—if a problem fits the definition of one category, it should not be able to fit the definition of another category.
-The script must meet OpenAI's content safety policy so it can be used to generate images through DALL-E 3 and GPT-4o.
+The generated script must meet OpenAI's content safety policy so it can later be used to create images by DALL-E 3 and GPT-4o.
 
   """
         )
@@ -261,7 +261,7 @@ The script must meet OpenAI's content safety policy so it can be used to generat
             imagescript=totalscript+script['scenes'][j]["image"]
             totalscript+=script['scenes'][j]["text"]
         print(totalscript)
-        special_instruction="Draw in cartoon style a picture with 4 panels and the same main character for the whole story. No words should be displayed. The incident needs to be clearly visualized. Facial expressions should match script."
+        special_instruction="In a cartoon style, create a four-panel illustration featuring the same main character consistently across the entire story. No words should be displayed. The incident needs to be clearly visualized. Facial expressions should match the severity of the text/script."
         before_image=time()
          #call GPTimage to generate image based on the same image script and special instruction
         image_url_GPTimage=generate_image_GPTimage(client, imagescript+special_instruction)
